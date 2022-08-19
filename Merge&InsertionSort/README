@@ -1,0 +1,16 @@
+InsertionSort and MergeSort Implemented in C.
+The code is working fine with no bugs.  
+
+	All the steps of the lab were accomplished. The mergeSort and insertionSort were implemented and tested to verify
+that 10 or less number of arrays is always simplified (10 is the max number of elements). Then parts of the code
+were replaced with the proper built-in lab functions. 
+
+	In insertion Sort, every element is compared with its adjacent element to see if their order needs to be sorted. 
+This process is repeated until the array is completely sorted. The best case is when all the elements are sorted and
+in that case the time complexity of this algorithm will be 0(n) since the loop will go through the array n times. In 
+this case, n is the number of elements in the array.
+The time complexity of average and worst case of this algorithm is 0(n^2)
+	In mergeSort, the array is divided into 2 subarrays and this process is repeated until there is 1 element left.
+Then the arrays are merged and sorted during this process. Since the process of dividing each element, comparing and
+merging them together is the same regardless of the order of elements the time complexity for the best, average, and
+worst case is 0(nlogn). 
