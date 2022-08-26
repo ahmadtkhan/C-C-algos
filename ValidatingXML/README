@@ -1,0 +1,45 @@
+Summarize your lab:
+
+  Part 1:
+     Works  Yes or No: Yes, works completely fine.
+     
+  Part 2:
+     Works  Yes or No: Yes, works completely fine.
+     
+  Part 3:
+     Works  Yes or No: No, I coded this part but there could not understand some pointer conversion. 
+     
+***ANSWERS TO QUESTIONS***
+ Question 1:
+     Which hash table collision resolution method did you use
+     (eg. chaining or open addressing)? Explain your choice
+     briefly (less than 25 words).
+ YOUR ANSWER:
+	I used open addressing or linear probing where a string is tried to hash. If that memory is already occupied, the next one is tried.
+	I chose this method because it saves memory.  
+ 
+ 
+ 
+ Question 2:
+       Which hash function (division or multiplication) did you use?
+       How did you convert a string into a number?
+ YOUR ANSWER:
+	I used multipication which can be seen in my hash function ("sum += *(tag+i);"). I tried to covert a string into a number using using strlen. 
+	I tried to compare the strings using strcmp();
+ 
+ 
+ Question 3:
+       Another legal XML tag not used in this lab is the
+       stand-alone tag.  This kind of tag
+       combines both a start-tag and end-tag in one.
+       It is identified with a '/' (slash) preceding the
+       final >.  (For example, the <foo/>
+       is a stand-alone tag that is self balancing.
+       
+       Describe briefly how
+       you would modify Part 3 to allow this kind of tag.
+       
+ YOUR ANSWER:
+	In part 1, I scanned the tag first and stored it in an int variable. Then after scanning the character I made the decsion to push() or pop() 
+	and compare. Here I will first scan the character. If the variable is a character, I will store the character value in another varaible, and 
+	scan to see what operation comes next. If I get a '>', I will push() and if I get a '/', I will pop();
