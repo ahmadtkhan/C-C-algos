@@ -1,1 +1,9 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Array Number Sum Finder</title>
+</head>
+<body>
+    <h1>The following code takes in an array and returns the index of the number which add up to the sum of another number in the array</h1>
+</body>
+</html>
