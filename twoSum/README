@@ -1,3 +1,1 @@
-# Array Number Sum Finder
-
 The following code takes in an array and returns the index of the number which adds up to the sum of another number in the array.
