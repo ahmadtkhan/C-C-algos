@@ -1,0 +1,2 @@
+The following code takes in an array which represents the price of a stack everyday. It returns the max difference between 
+two points in a way the higher price comes after (selling late known as profit). 
