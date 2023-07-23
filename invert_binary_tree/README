@@ -1,0 +1,1 @@
+Inverts a binary tree. This is done by sorting the left and right node and then repeating the same process using recursion. When the root is NULL it returns NULL and the recursion stops. 
