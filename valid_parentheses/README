@@ -1,1 +1,3 @@
-Checks whether the parentheses is opened and closed. 
+Checks whether the parentheses is opened and closed in the proper order. 
+A for loop is used to iterate over the string. If the letter is an opening bracket, we push it. If the string has a space, we return false. If any other scenario, the letter is compared with the opening bracket on the top of
+stack (the latest one). If they match we pop that value from the stack. Else return false and it the parantheses is not valid. 
