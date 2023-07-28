@@ -1,1 +1,5 @@
 Checks if a sentence is a valid palindrome by removing all the spaces and special characters. Not case sensitive. 
+If the string has no or one letter, it is a palindrome and the algorithm returns true. 
+The algorithm is designed as it compares the first half of string to the second half of the string by skipping characters which are not alphanumeric. 
+This is implemented by initilizing one integer with the value of 0, and the other with the length of the string. The outer loop loops until both the characters pass each other. The inner while loops advance from opposite 
+sides and ignore non-alphanumeric characters. The if statement compares the set of characters and returns false indicating its not a palindrome. If the loop runs successful (without returning false), then its a palindrome. 
