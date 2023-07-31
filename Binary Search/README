@@ -1,0 +1,3 @@
+The following code searches through an unordered map in O(logn) time complexity. This is done by dividing the array in 2 and comparing whether the number is larger or smaller than the target (return the number if it is the 
+target value. If the number is smaller than the value in the middle, the algorithm searches for the number in the first half of the array and if the number is larger it searches through the second half of the array. This 
+process is repeated recursively until the number is found. 
