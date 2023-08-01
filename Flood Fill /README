@@ -1,0 +1,2 @@
+The following code takes a 2D array, in which each element represents a pixel. The algorithm takes the array and fills the starting pixel and any other pixel which is connected 4-directionally with the color that is passed 
+in the floodfill function. 
