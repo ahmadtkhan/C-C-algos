@@ -1,0 +1,2 @@
+The following algorithm checks if there is a cycle in the linked list. This is done by iterating the linked list by one value and another time by skipping a value. If both the values collide, there is a loop. If there is no 
+loop, both of them will complete the linked list. There is a condition saying if there is a NULL, there is no cycle. 
