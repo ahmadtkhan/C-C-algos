@@ -1,0 +1,2 @@
+The algorithm checks the common ancestor between two nodes (p and q) on a BST. First the root is read. If both the nodes are greater than root, the value to the right of the root is initialized as root. If both nodes are 
+lesser than the root, the value on the left is initialized as root. If both these cases are not applicable, that means the root is found. This process is repeated using a while loop until the root is returned. 
