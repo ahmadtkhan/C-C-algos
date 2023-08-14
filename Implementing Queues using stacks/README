@@ -1,0 +1,2 @@
+The following code implements a queue using a stack. To push a value, just push(value). When popping a value, we first check if the stack is empty we return. Otherwise we can get the top value and push it in the stack. This 
+is repeated using recurrsion until the stack empty. Then we return the top value (which is the proper value from the prespective of a queue). The empty function checks if the stack is empty using the ".empty()" function.
